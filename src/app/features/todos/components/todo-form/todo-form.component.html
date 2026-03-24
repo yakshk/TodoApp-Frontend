@@ -1,0 +1,15 @@
+<form (ngSubmit)="submit()" class="form">
+  <div class="field">
+    <label for="title">Add a task</label>
+    <input
+      id="title"
+      type="text"
+      [(ngModel)]="title"
+      name="title"
+      required
+      placeholder="e.g. Hire Yaksh"
+    />
+  </div>
+
+  <button type="submit">Add Todo</button>
+</form>
